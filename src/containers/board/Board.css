@@ -1,0 +1,19 @@
+.board {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 30vw;
+}
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    height: 33.33%;
+    border: red solid;
+}
+.cell:hover {
+    cursor: pointer;
+}
